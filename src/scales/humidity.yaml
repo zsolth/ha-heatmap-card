@@ -1,0 +1,15 @@
+name: Relative humidity
+type: absolute
+device_class: humidity
+unit: %
+steps:
+  - value: 20
+    color: "#cf0000"
+  - value: 40
+    color: "#fde74c"
+  - value: 50
+    color: "#6d9b17"
+  - value: 60
+    color: "#fde74c"
+  - value: 80
+    color: "#cf0000"
