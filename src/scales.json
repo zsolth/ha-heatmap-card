@@ -419,5 +419,34 @@
     ],
     "type": "absolute",
     "unit": "\u00b0C"
+  },
+  {
+    "device_class": "humidity",
+    "key": "Indoor relative humidity",
+    "name": "Indoor relative humidity",
+    "steps": [
+      {
+        "color": "#cf0000",
+        "value": 20
+      },
+      {
+        "color": "#fde74c",
+        "value": 40
+      },
+      {
+        "color": "#6d9b17",
+        "value": 50
+      },
+      {
+        "color": "#fde74c",
+        "value": 60
+      },
+      {
+        "color": "#cf0000",
+        "value": 80
+      }
+    ],
+    "type": "absolute",
+    "unit": "%"
   }
 ]
